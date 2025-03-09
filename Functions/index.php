@@ -11,8 +11,9 @@
         <h1>Funcoes</h1>
 
         <ul>
-            <li><a href="/example.php">Exemplo basico</a></li>
-            <li><a href="/function-tipagem.php">Exemplo tipadas</a></li>
+            <li><a href="/example.php">Function basico</a></li>
+            <li><a href="/function-tipagem.php">Function tipadas</a></li>
+            <li><a href="/function-reference.php">Parametros por reference</a></li>
         </ul>
     </div>
 
