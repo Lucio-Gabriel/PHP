@@ -14,6 +14,7 @@
             <li><a href="/example.php">Function basico</a></li>
             <li><a href="/function-tipagem.php">Function tipadas</a></li>
             <li><a href="/function-reference.php">Parametros por reference</a></li>
+            <li><a href="/scope-variables.php">Escopo de variaveis</a></li>
         </ul>
     </div>
 
