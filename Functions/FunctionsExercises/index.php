@@ -11,6 +11,8 @@
         <h1>Hello, here it will be questions of functions</h1>
 
         <a href="/exercice01.php">Exercice level easy</a>
+
+        <a href="/exercice02.php">Exercice level medium</a>
     </div>
 
 </body>
