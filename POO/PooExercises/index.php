@@ -11,6 +11,8 @@
 
     <div>
         <a href="/PooOne.php">First Exercice</a>
+
+        <a href="/PooTwo.php">Secondy Exercice</a>
     </div>
 
 </body>
