@@ -2,10 +2,13 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use App\Greetings;
-use App\Logger;
+use App\Models\Product;
 
-$greetings = new Greetings();
-echo $greetings->message('John Doe');
+$products = Product::all();
 
-(new Logger())->write('John Doe accessed the aplication');
+$filterProducts = array_filter($products, static fn (array $product) => $product['is_available']);
+
+$title = 'My WebStore';
+
+require __DIR__ . '/../resources/views/index.phtml';
+
